@@ -74,10 +74,12 @@ public class World : MonoBehaviour
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
 
+        /*
         Material material = new Material(Shader.Find("Hidden/Internal-Colored"));
         material.SetInteger("_Wireframe", 1);
 
         MeshRenderer meshRenderer = gameObject.AddComponent<MeshRenderer>();
         meshRenderer.material = material;
+        */
     }
 }
